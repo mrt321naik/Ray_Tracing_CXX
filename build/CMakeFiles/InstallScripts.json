@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/abhaynaik/Ray_Tracing_CXX/build/cmake_install.cmake"
+		"C:/MyProjects/Ray_Tracing_CXX/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

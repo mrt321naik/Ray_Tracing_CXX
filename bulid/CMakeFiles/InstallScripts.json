@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/MyProjects/Ray_Tracing_CXX/bulid/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
