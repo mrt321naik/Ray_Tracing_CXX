@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20) # Adjusted version
+cmake_minimum_required(VERSION 4.1) # Adjusted version
 project(raytracing LANGUAGES C CXX)
 
 add_executable(

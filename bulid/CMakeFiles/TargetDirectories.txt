@@ -1,3 +1,0 @@
-C:/MyProjects/Ray_Tracing_CXX/bulid/CMakeFiles/raytracing.dir
-C:/MyProjects/Ray_Tracing_CXX/bulid/CMakeFiles/ALL_BUILD.dir
-C:/MyProjects/Ray_Tracing_CXX/bulid/CMakeFiles/ZERO_CHECK.dir

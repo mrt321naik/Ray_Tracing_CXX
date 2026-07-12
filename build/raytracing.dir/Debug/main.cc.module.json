@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "raytracing.dir\\Debug\\main.obj",
+            "outputs": [
+                "C:\\MyProjects\\Ray_Tracing_CXX\\build\\raytracing.dir\\Debug\\vc145.pdb",
+                "raytracing.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

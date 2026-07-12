@@ -1,3 +1,8 @@
+#include "hittable.h"
+#ifndef CAMERA_H 
+#define CAMERA_H
+
+
 class camera {
   public:
     double aspect_ratio = 1.0;  // Ratio of image width over height
@@ -13,21 +18,21 @@ class camera {
         for (int j = 0; j < image_height; j++) {
             std::clog << "\rScanlines remaining: " << (image_height - j) << ' ' << std::flush;
             for (int i = 0; i < image_width; i++) {
-               color pixel_color(0,0,0);
-               for (int sample = 0; sample < samples_per_pixel; sample++) {
-                ray r = get_ray(i, j);
-                pixel_color += ray_color(r, world);
-               }
-               write_color(std::cout, pixel_samples_scale * pixel_color);
+                color pixel_color(0,0,0);
+                for (int sample = 0; sample < samples_per_pixel; sample++) {
+                    ray r = get_ray(i, j);
+                    pixel_color += ray_color(r, world);
+                }
+                write_color(std::cout, pixel_samples_scale * pixel_color);
             }
         }
-
         std::clog << "\rDone.                 \n";
     }
 
+
   private:
-    int    image_height;   // Rendered image height
-    double pixel_samples_scale; // Color scale factor for a sum of pixel samples
+     int    image_height;   // Rendered image height
+     double pixel_samples_scale;  // Color scale factor for a sum of pixel samples
     point3 center;         // Camera center
     point3 pixel00_loc;    // Location of pixel 0, 0
     vec3   pixel_delta_u;  // Offset to pixel to the right
@@ -80,7 +85,7 @@ class camera {
         return vec3(random_double() - 0.5, random_double() - 0.5, 0);
     }
 
-     color ray_color(const ray& r, const hittable& world) const {
+       color ray_color(const ray& r, const hittable& world) const {
         hit_record rec;
 
         if (world.hit(r, interval(0, infinity), rec)) {

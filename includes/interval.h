@@ -18,10 +18,6 @@ class interval {
         }
 
         bool surrounds(double x) const {
-            return min <= x && <= max;
-        }
-
-        bool surrounds(double x) const {
             return min < x && x < max;
         }
 
@@ -31,7 +27,7 @@ class interval {
         return x;
     }
 
-        static const interval emty, universe;
+        static const interval empty, universe;
 };
 
 const interval interval::empty      = interval(+infinity, -infinity);

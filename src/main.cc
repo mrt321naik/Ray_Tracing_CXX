@@ -4,10 +4,6 @@
 #include "hittable_list.h"
 #include "sphere.h"
 
-#include <iostream>
-
-
-
 int main() {
  hittable_list world;
 

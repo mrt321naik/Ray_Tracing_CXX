@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "MSVC",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/MyProjects/Ray_Tracing_CXX/build",
+	"dir-cur-src" : "C:/MyProjects/Ray_Tracing_CXX",
+	"dir-top-bld" : "C:/MyProjects/Ray_Tracing_CXX/build",
+	"dir-top-src" : "C:/MyProjects/Ray_Tracing_CXX",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\MyProjects\\Ray_Tracing_CXX\\includes"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/MyProjects/Ray_Tracing_CXX/build/CMakeFiles/raytracing.dir",
+	"sources" : 
+	{
+		"CMakeFiles/raytracing.dir/src/main.cc.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/MyProjects/Ray_Tracing_CXX/src/main.cc"
+		}
+	}
+}

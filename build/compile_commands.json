@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/MyProjects/Ray_Tracing_CXX/build",
+  "command": "\"C:\\Program Files\\LLVM\\bin\\clang-cl.exe\"  /nologo -TP -IC:\\MyProjects\\Ray_Tracing_CXX\\includes /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od -std:c++20 -MDd -RTC1 -Zi @CMakeFiles\\raytracing.dir\\src\\main.cc.obj.modmap /FoCMakeFiles\\raytracing.dir\\src\\main.cc.obj /FdCMakeFiles\\raytracing.dir\\ -c -- C:\\MyProjects\\Ray_Tracing_CXX\\src\\main.cc",
+  "file": "C:/MyProjects/Ray_Tracing_CXX/src/main.cc",
+  "output": "C:/MyProjects/Ray_Tracing_CXX/build/CMakeFiles/raytracing.dir/src/main.cc.obj"
+}
+]

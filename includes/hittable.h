@@ -1,6 +1,6 @@
 #ifndef  HITTABLE_H
 #define HITTABLE_H
-
+#include "rtweeked.h"
 
 class hit_record {
     public:
@@ -15,8 +15,10 @@ class hit_record {
 
             front_face = dot(r.direction(), outward_normal) < 0;
             normal = front_face ? outward_normal : -outward_normal;
-            virtual bool hit(const ray& r, interval ray_t, hit_record& rec) const = 0;
+            
         }
+
+        
 };
 
 class hittable {
