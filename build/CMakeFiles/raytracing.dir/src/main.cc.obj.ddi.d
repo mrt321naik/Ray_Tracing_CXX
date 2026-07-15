@@ -269,5 +269,6 @@ CMakeFiles\raytracing.dir\src\main.cc.obj.ddi: \
   C:\MyProjects\Ray_Tracing_CXX\includes\ray.h\  \
   C:\MyProjects\Ray_Tracing_CXX\includes\camera.h \
   C:\MyProjects\Ray_Tracing_CXX\includes\hittable.h \
+  C:\MyProjects\Ray_Tracing_CXX\includes\material.h \
   C:\MyProjects\Ray_Tracing_CXX\includes\hittable_list.h \
   C:\MyProjects\Ray_Tracing_CXX\includes\sphere.h

@@ -14,6 +14,7 @@ add_executable(
     includes/rtweeked.h
     includes/interval.h
     includes/camera.h
+    includes/material.h
 )
 
 # 1. No commas
