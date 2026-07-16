@@ -10,20 +10,20 @@ The program generates the world and outputs the result via an image in the ppm f
 
 
 Build & run :
-''' 
+```
 cmake -B build
-'''
+```
 
 then run 
-'''
+```
 cmake --build build --config relase
 
-'''
+```
 to output the image render we run 
-'''
+```
 build/raytracing.exe > image.ppm
 
-'''
+```
 
 
 
