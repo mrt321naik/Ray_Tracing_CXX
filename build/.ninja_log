@@ -1,13 +1,13 @@
 # ninja log v7
-13	204	8058961522966385	CMakeFiles/raytracing.dir/src/main.cc.obj.ddi	40499a357c046e73
-205	234	8058961524883977	CMakeFiles/raytracing.dir/CXX.dd	8244ccaaec10ac17
-205	234	8058961524883977	CMakeFiles/raytracing.dir/CXXModules.json	8244ccaaec10ac17
-205	234	8058961524883977	CMakeFiles/raytracing.dir/src/main.cc.obj.modmap	8244ccaaec10ac17
-236	1251	8058961525195426	CMakeFiles/raytracing.dir/src/main.cc.obj	1ec5a4ac45d08d3b
-1252	1432	8058961535355038	raytracing.exe	781e70a819a0bed8
 20	205	8058961745785112	CMakeFiles/raytracing.dir/src/main.cc.obj.ddi	40499a357c046e73
 206	233	8058961747617904	CMakeFiles/raytracing.dir/CXX.dd	8244ccaaec10ac17
 206	233	8058961747617904	CMakeFiles/raytracing.dir/CXXModules.json	8244ccaaec10ac17
 206	233	8058961747617904	CMakeFiles/raytracing.dir/src/main.cc.obj.modmap	8244ccaaec10ac17
 235	1235	8058961747937121	CMakeFiles/raytracing.dir/src/main.cc.obj	1ec5a4ac45d08d3b
 1235	1415	8058961757853316	raytracing.exe	781e70a819a0bed8
+25	362	8058995000344019	CMakeFiles/raytracing.dir/src/main.cc.obj.ddi	40499a357c046e73
+362	393	8058995003688663	CMakeFiles/raytracing.dir/CXX.dd	8244ccaaec10ac17
+362	393	8058995003688663	CMakeFiles/raytracing.dir/CXXModules.json	8244ccaaec10ac17
+362	393	8058995003688663	CMakeFiles/raytracing.dir/src/main.cc.obj.modmap	8244ccaaec10ac17
+395	1696	8058995004055071	CMakeFiles/raytracing.dir/src/main.cc.obj	1ec5a4ac45d08d3b
+1697	1964	8058995017037101	raytracing.exe	781e70a819a0bed8
